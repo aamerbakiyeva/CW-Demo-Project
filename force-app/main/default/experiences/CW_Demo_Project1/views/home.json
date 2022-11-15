@@ -1,0 +1,62 @@
+{
+  "appPageId" : "dac5bf01-c292-4099-8394-4449aebe81bf",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "f202855f-3620-42aa-a040-4ec6f5b0d009",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img class='sfdcCbImage' src='/sfsites/c/img/community/cpt/cpt-home-banner.png'             style='width:100%;'/>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "78de436c-8ce5-40f8-8162-967513b74143",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3507985c-d3af-4819-b911-8d35db89b24f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "71df1a85-a8fb-4ee0-a2ab-7ec5df1cbb54",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"utm_campaing\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{! utm_campaing}\"},{\"label\":\"utm_content\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{! utm_content}\"},{\"label\":\"utm_id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_id}\"},{\"label\":\"utm_medium\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_medium}\"},{\"label\":\"utm_referer\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_referer}\"},{\"label\":\"utm_source\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_source}\"},{\"label\":\"utm_term\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_term}\"}]",
+        "flowName" : "Campaign_Lead_Flow"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "80518cfe-1e37-46f5-a5b0-9c1120d31083",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c4380454-ff37-47dc-9db9-e372f7b16275",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a5796cd4-283c-4db4-ba07-f667c056487a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ae3c90a6-550c-47f6-ae38-f8cb994266a9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ae220658-556b-44c3-8fa0-9884b48af0cc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
